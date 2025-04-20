@@ -1,0 +1,3 @@
+[submodule "SaucelabswithTestNg"]
+	path = SaucelabswithTestNg
+	url = https://github.com/MrVamc/SaucelabsWithTestNg.git
