@@ -1,0 +1,51 @@
+<?xml version ="1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="inventoryTestCases">
+
+
+	<listeners>
+		<listener
+			class-name="com.newframework.myListeners.myListenerClass" />
+		<listener
+			class-name="com.newframework.myListeners.IretryListener" />
+	</listeners>
+
+	<test name="inventorySaucelabs">
+
+		<classes>
+
+			<class
+				name="com.newframework.saucelabs.inventoryTestcases.productListCount" />
+
+			<class
+				name="com.newframework.saucelabs.inventoryTestcases.productDetails" />
+
+			<class
+				name="com.newframework.saucelabs.inventoryTestcases.sortLowToHigh" />
+
+			<class
+				name="com.newframework.saucelabs.inventoryTestcases.sortHighToLow" />
+
+			<class
+				name="com.newframework.saucelabs.inventoryTestcases.sortAtoZ" />
+
+			<class
+				name="com.newframework.saucelabs.inventoryTestcases.sortZtoA" />
+				
+			<class
+				name="com.newframework.saucelabs.inventoryTestcases.addtoCart" />
+				
+			<class
+				name="com.newframework.saucelabs.inventoryTestcases.addMultipleProducts" />
+				
+			<class
+				name="com.newframework.saucelabs.inventoryTestcases.removeProductFromCart" />
+
+		</classes>
+
+	</test>
+
+
+
+</suite>
+

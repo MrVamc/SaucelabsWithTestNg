@@ -1,0 +1,54 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="newFrameWork">
+
+	<!-- Listeners for reporting and retry logic -->
+	<listeners>
+		<listener
+			class-name="com.newframework.myListeners.myListenerClass" />
+		<listener
+			class-name="com.newframework.myListeners.IretryListener" />
+	</listeners>
+
+
+	<test name="saucelabsTestCase">
+
+		<classes>
+			<!-- Login Test Cases -->
+			<class
+				name="com.newframework.saucelabs.logintestcases.loginwithValidCredentials" />
+			<class
+				name="com.newframework.saucelabs.logintestcases.invalidLogin" />
+			<class
+				name="com.newframework.saucelabs.logintestcases.loginwithEmptyFields" />
+			<class
+				name="com.newframework.saucelabs.logintestcases.loginwithOnlyUsername" />
+			<class
+				name="com.newframework.saucelabs.logintestcases.loginwithOnlyPwd" />
+
+			<!-- Inventory Test Cases -->
+			<class
+				name="com.newframework.saucelabs.inventoryTestcases.productListCount" />
+			<class
+				name="com.newframework.saucelabs.inventoryTestcases.productDetails" />
+			<class
+				name="com.newframework.saucelabs.inventoryTestcases.productListCount" />
+			<class
+				name="com.newframework.saucelabs.inventoryTestcases.productDetails" />
+			<class
+				name="com.newframework.saucelabs.inventoryTestcases.sortLowToHigh" />
+			<class
+				name="com.newframework.saucelabs.inventoryTestcases.sortHighToLow" />
+			<class
+				name="com.newframework.saucelabs.inventoryTestcases.sortAtoZ" />
+			<class
+				name="com.newframework.saucelabs.inventoryTestcases.sortZtoA" />
+			<class
+				name="com.newframework.saucelabs.inventoryTestcases.addtoCart" />
+			<class
+				name="com.newframework.saucelabs.inventoryTestcases.addMultipleProducts" />
+			<class
+				name="com.newframework.saucelabs.inventoryTestcases.removeProductFromCart" />
+		</classes>
+	</test>
+</suite>

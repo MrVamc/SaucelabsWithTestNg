@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-19T22:55:42 IST" name="Default suite" finished-at="2025-04-19T22:55:54 IST" duration-ms="12063">
+    <groups>
+    </groups>
+    <test started-at="2025-04-19T22:55:42 IST" name="Default test" finished-at="2025-04-19T22:55:54 IST" duration-ms="12063">
+      <class name="com.newframework.saucelabs.cartTestcases.verifyItemsInCart">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.newframework.saucelabs.cartTestcases.verifyItemsInCart@550dbc7a]" started-at="2025-04-19T22:55:42 IST" name="setUp" finished-at="2025-04-19T22:55:44 IST" duration-ms="1568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.newframework.saucelabs.cartTestcases.verifyItemsInCart@550dbc7a]" started-at="2025-04-19T22:55:44 IST" name="login" finished-at="2025-04-19T22:55:48 IST" duration-ms="3980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyItemsInCart()[pri:0, instance:com.newframework.saucelabs.cartTestcases.verifyItemsInCart@550dbc7a]" started-at="2025-04-19T22:55:48 IST" name="verifyItemsInCart" finished-at="2025-04-19T22:55:51 IST" duration-ms="3322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItemsInCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.newframework.saucelabs.cartTestcases.verifyItemsInCart@550dbc7a]" started-at="2025-04-19T22:55:51 IST" name="tearDown" finished-at="2025-04-19T22:55:54 IST" duration-ms="3167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.newframework.saucelabs.cartTestcases.verifyItemsInCart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
