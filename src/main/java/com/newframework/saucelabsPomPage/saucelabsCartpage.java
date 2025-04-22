@@ -27,6 +27,10 @@ public class saucelabsCartpage extends newBaseclass{
 		removeButton.click();
 	}
 	
+	public WebElement getRemoveButton() {
+		return removeButton;
+	}
+	
 	@FindBy(id = "checkout")
 	private WebElement checkoutButton;
 	

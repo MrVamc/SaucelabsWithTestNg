@@ -1,0 +1,38 @@
+<?xml version ="1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="cartTestCases">
+
+
+	<listeners>
+		<listener
+			class-name="com.newframework.myListeners.myListenerClass" />
+		<listener
+			class-name="com.newframework.myListeners.IretryListener" />
+	</listeners>
+
+	<test name="cartSaucelabs">
+
+		<classes>
+
+			<class
+				name="com.newframework.saucelabs.cartTestcases.navigateToCart" />
+
+			<class
+				name="com.newframework.saucelabs.cartTestcases.backToInventory" />
+
+			<class
+				name="com.newframework.saucelabs.cartTestcases.removeItemsInCart" />
+
+			<class
+				name="com.newframework.saucelabs.cartTestcases.checkOut" />
+
+
+
+		</classes>
+
+	</test>
+
+
+
+</suite>
+
