@@ -2,78 +2,78 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-22T16:27:08 IST" name="cartTestCases" finished-at="2025-04-22T16:28:03 IST" duration-ms="54321">
+  <suite started-at="2025-04-26T22:24:34 IST" name="cartTestCases" finished-at="2025-04-26T22:25:24 IST" duration-ms="49392">
     <groups>
     </groups>
-    <test started-at="2025-04-22T16:27:08 IST" name="cartSaucelabs" finished-at="2025-04-22T16:28:03 IST" duration-ms="54321">
+    <test started-at="2025-04-26T22:24:34 IST" name="cartSaucelabs" finished-at="2025-04-26T22:25:24 IST" duration-ms="49392">
       <class name="com.newframework.saucelabs.cartTestcases.backToInventory">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.newframework.saucelabs.cartTestcases.backToInventory@6253c26]" started-at="2025-04-22T16:27:19 IST" name="setUp" finished-at="2025-04-22T16:27:20 IST" duration-ms="1404" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.newframework.saucelabs.cartTestcases.backToInventory@d9345cd]" started-at="2025-04-26T22:24:43 IST" name="setUp" finished-at="2025-04-26T22:24:44 IST" duration-ms="968" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.newframework.saucelabs.cartTestcases.backToInventory@6253c26]" started-at="2025-04-22T16:27:20 IST" name="login" finished-at="2025-04-22T16:27:24 IST" duration-ms="4443" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.newframework.saucelabs.cartTestcases.backToInventory@d9345cd]" started-at="2025-04-26T22:24:44 IST" name="login" finished-at="2025-04-26T22:24:48 IST" duration-ms="4016" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="toContinueShopping()[pri:0, instance:com.newframework.saucelabs.cartTestcases.backToInventory@6253c26]" started-at="2025-04-22T16:27:24 IST" name="toContinueShopping" finished-at="2025-04-22T16:27:28 IST" duration-ms="3340" status="PASS">
+        <test-method signature="toContinueShopping()[pri:0, instance:com.newframework.saucelabs.cartTestcases.backToInventory@d9345cd]" started-at="2025-04-26T22:24:48 IST" name="toContinueShopping" finished-at="2025-04-26T22:24:51 IST" duration-ms="3292" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- toContinueShopping -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.newframework.saucelabs.cartTestcases.backToInventory@6253c26]" started-at="2025-04-22T16:27:28 IST" name="tearDown" finished-at="2025-04-22T16:27:31 IST" duration-ms="3193" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.newframework.saucelabs.cartTestcases.backToInventory@d9345cd]" started-at="2025-04-26T22:24:51 IST" name="tearDown" finished-at="2025-04-26T22:24:55 IST" duration-ms="3136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.newframework.saucelabs.cartTestcases.backToInventory -->
       <class name="com.newframework.saucelabs.cartTestcases.removeItemsInCart">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.newframework.saucelabs.cartTestcases.removeItemsInCart@49049a04]" started-at="2025-04-22T16:27:31 IST" name="setUp" finished-at="2025-04-22T16:27:32 IST" duration-ms="1454" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.newframework.saucelabs.cartTestcases.removeItemsInCart@2d710f1a]" started-at="2025-04-26T22:24:55 IST" name="setUp" finished-at="2025-04-26T22:24:56 IST" duration-ms="1064" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.newframework.saucelabs.cartTestcases.removeItemsInCart@49049a04]" started-at="2025-04-22T16:27:32 IST" name="login" finished-at="2025-04-22T16:27:37 IST" duration-ms="4853" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.newframework.saucelabs.cartTestcases.removeItemsInCart@2d710f1a]" started-at="2025-04-26T22:24:56 IST" name="login" finished-at="2025-04-26T22:25:00 IST" duration-ms="4020" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="removeItemsInCart()[pri:0, instance:com.newframework.saucelabs.cartTestcases.removeItemsInCart@49049a04]" started-at="2025-04-22T16:27:37 IST" name="removeItemsInCart" finished-at="2025-04-22T16:27:44 IST" duration-ms="6611" status="PASS">
+        <test-method signature="removeItemsInCart()[pri:0, instance:com.newframework.saucelabs.cartTestcases.removeItemsInCart@2d710f1a]" started-at="2025-04-26T22:25:00 IST" name="removeItemsInCart" finished-at="2025-04-26T22:25:06 IST" duration-ms="6412" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeItemsInCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.newframework.saucelabs.cartTestcases.removeItemsInCart@49049a04]" started-at="2025-04-22T16:27:44 IST" name="tearDown" finished-at="2025-04-22T16:27:47 IST" duration-ms="3228" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.newframework.saucelabs.cartTestcases.removeItemsInCart@2d710f1a]" started-at="2025-04-26T22:25:06 IST" name="tearDown" finished-at="2025-04-26T22:25:09 IST" duration-ms="3168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.newframework.saucelabs.cartTestcases.removeItemsInCart -->
       <class name="com.newframework.saucelabs.cartTestcases.navigateToCart">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.newframework.saucelabs.cartTestcases.navigateToCart@36916eb0]" started-at="2025-04-22T16:27:08 IST" name="setUp" finished-at="2025-04-22T16:27:11 IST" duration-ms="2305" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.newframework.saucelabs.cartTestcases.navigateToCart@27f981c6]" started-at="2025-04-26T22:24:34 IST" name="setUp" finished-at="2025-04-26T22:24:36 IST" duration-ms="1328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.newframework.saucelabs.cartTestcases.navigateToCart@36916eb0]" started-at="2025-04-22T16:27:11 IST" name="login" finished-at="2025-04-22T16:27:15 IST" duration-ms="4338" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.newframework.saucelabs.cartTestcases.navigateToCart@27f981c6]" started-at="2025-04-26T22:24:36 IST" name="login" finished-at="2025-04-26T22:24:40 IST" duration-ms="3995" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="navToCart()[pri:0, instance:com.newframework.saucelabs.cartTestcases.navigateToCart@36916eb0]" started-at="2025-04-22T16:27:15 IST" name="navToCart" finished-at="2025-04-22T16:27:15 IST" duration-ms="275" status="PASS">
+        <test-method signature="navToCart()[pri:0, instance:com.newframework.saucelabs.cartTestcases.navigateToCart@27f981c6]" started-at="2025-04-26T22:24:40 IST" name="navToCart" finished-at="2025-04-26T22:24:40 IST" duration-ms="168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.newframework.saucelabs.cartTestcases.navigateToCart@36916eb0]" started-at="2025-04-22T16:27:15 IST" name="tearDown" finished-at="2025-04-22T16:27:19 IST" duration-ms="3285" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.newframework.saucelabs.cartTestcases.navigateToCart@27f981c6]" started-at="2025-04-26T22:24:40 IST" name="tearDown" finished-at="2025-04-26T22:24:43 IST" duration-ms="3202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.newframework.saucelabs.cartTestcases.navigateToCart -->
       <class name="com.newframework.saucelabs.cartTestcases.checkOut">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.newframework.saucelabs.cartTestcases.checkOut@71a8adcf]" started-at="2025-04-22T16:27:47 IST" name="setUp" finished-at="2025-04-22T16:27:49 IST" duration-ms="1359" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.newframework.saucelabs.cartTestcases.checkOut@29215f06]" started-at="2025-04-26T22:25:09 IST" name="setUp" finished-at="2025-04-26T22:25:10 IST" duration-ms="983" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.newframework.saucelabs.cartTestcases.checkOut@71a8adcf]" started-at="2025-04-22T16:27:49 IST" name="login" finished-at="2025-04-22T16:27:53 IST" duration-ms="4230" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.newframework.saucelabs.cartTestcases.checkOut@29215f06]" started-at="2025-04-26T22:25:10 IST" name="login" finished-at="2025-04-26T22:25:14 IST" duration-ms="4073" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="verifyCheckOut()[pri:0, instance:com.newframework.saucelabs.cartTestcases.checkOut@71a8adcf]" started-at="2025-04-22T16:27:53 IST" name="verifyCheckOut" finished-at="2025-04-22T16:27:59 IST" duration-ms="6689" status="PASS">
+        <test-method signature="verifyCheckOut()[pri:0, instance:com.newframework.saucelabs.cartTestcases.checkOut@29215f06]" started-at="2025-04-26T22:25:14 IST" name="verifyCheckOut" finished-at="2025-04-26T22:25:21 IST" duration-ms="6376" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCheckOut -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.newframework.saucelabs.cartTestcases.checkOut@71a8adcf]" started-at="2025-04-22T16:27:59 IST" name="tearDown" finished-at="2025-04-22T16:28:03 IST" duration-ms="3213" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.newframework.saucelabs.cartTestcases.checkOut@29215f06]" started-at="2025-04-26T22:25:21 IST" name="tearDown" finished-at="2025-04-26T22:25:24 IST" duration-ms="3156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

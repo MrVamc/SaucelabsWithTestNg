@@ -54,6 +54,7 @@ public class newBaseclass {
 		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
 		browserUtils.max_Screen(driver);
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
 
 

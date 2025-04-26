@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.newframework.saucelabs.cartTestcases.removeItemsInCart">
+      <class name="com.newframework.saucelabs.cartTestcases.checkOut">
         <methods>
+          <include name="verifyCheckOut"/>
           <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="removeItemsInCart"/>
           <include name="login"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.newframework.saucelabs.cartTestcases.removeItemsInCart -->
+      </class> <!-- com.newframework.saucelabs.cartTestcases.checkOut -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

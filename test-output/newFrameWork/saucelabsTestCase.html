@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>saucelabsTestCase</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Apr 17 20:37:59 IST 2025</td>
+<td>Started on:</td><td>Sat Apr 26 22:01:52 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>125 seconds (125613 ms)</td>
+<tr><td>Total time:</td><td>265 seconds (265792 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,88 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.newframework.saucelabs.cartTestcases.checkOut.tearDown()'><b>tearDown</b><br>Test class: com.newframework.saucelabs.cartTestcases.checkOut</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=135.0.7049.115)
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8379561e51e6c5db8d02bda286cf54a0, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\vamsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51395}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51395/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8379561e51e6c5db8d02bda286cf54a0
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:418)
+	at com.newframework.baseclass.newBaseclass.tearDown(newBaseclass.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace150306380", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace150306380'><pre>org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=135.0.7049.115)
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8379561e51e6c5db8d02bda286cf54a0, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\vamsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51395}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51395/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8379561e51e6c5db8d02bda286cf54a0
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:418)
+	at com.newframework.baseclass.newBaseclass.tearDown(newBaseclass.java:66)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:217)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:130)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>3</td>
+<td>com.newframework.saucelabs.cartTestcases.checkOut@4d154ccd</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,75 +157,125 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.newframework.saucelabs.inventoryTestcases.removeProductFromCart.removeProduct()'><b>removeProduct</b><br>Test class: com.newframework.saucelabs.inventoryTestcases.removeProductFromCart</td>
-<td></td>
-<td>3</td>
-<td>com.newframework.saucelabs.inventoryTestcases.removeProductFromCart@b9b00e0</td></tr>
-<tr>
-<td title='com.newframework.saucelabs.logintestcases.invalidLogin.invalidLogin()'><b>invalidLogin</b><br>Test class: com.newframework.saucelabs.logintestcases.invalidLogin<br>Parameters: locked_out_user, secret_sauce</td>
-<td></td>
-<td>10</td>
-<td>com.newframework.saucelabs.logintestcases.invalidLogin@55634720</td></tr>
-<tr>
 <td title='com.newframework.saucelabs.inventoryTestcases.sortHighToLow.sortHighToLow()'><b>sortHighToLow</b><br>Test class: com.newframework.saucelabs.inventoryTestcases.sortHighToLow</td>
 <td></td>
 <td>0</td>
-<td>com.newframework.saucelabs.inventoryTestcases.sortHighToLow@59505b48</td></tr>
+<td>com.newframework.saucelabs.inventoryTestcases.sortHighToLow@3012646b</td></tr>
 <tr>
-<td title='com.newframework.saucelabs.inventoryTestcases.productListCount.validateProductListCount()'><b>validateProductListCount</b><br>Test class: com.newframework.saucelabs.inventoryTestcases.productListCount</td>
-<td></td>
-<td>0</td>
-<td>com.newframework.saucelabs.inventoryTestcases.productListCount@d9345cd</td></tr>
-<tr>
-<td title='com.newframework.saucelabs.inventoryTestcases.sortZtoA.sortZToA()'><b>sortZToA</b><br>Test class: com.newframework.saucelabs.inventoryTestcases.sortZtoA</td>
-<td></td>
-<td>0</td>
-<td>com.newframework.saucelabs.inventoryTestcases.sortZtoA@6bd61f98</td></tr>
-<tr>
-<td title='com.newframework.saucelabs.logintestcases.loginwithOnlyPwd.pwdOnly()'><b>pwdOnly</b><br>Test class: com.newframework.saucelabs.logintestcases.loginwithOnlyPwd<br>Parameters: standard_user, secret_sauce</td>
-<td></td>
-<td>1</td>
-<td>com.newframework.saucelabs.logintestcases.loginwithOnlyPwd@428640fa</td></tr>
-<tr>
-<td title='com.newframework.saucelabs.inventoryTestcases.addMultipleProducts.addMultipleProductsToCart()'><b>addMultipleProductsToCart</b><br>Test class: com.newframework.saucelabs.inventoryTestcases.addMultipleProducts</td>
+<td title='com.newframework.saucelabs.checkOutFlow.cancelOrder.verifyCheckOutwitValidData()'><b>verifyCheckOutwitValidData</b><br>Test class: com.newframework.saucelabs.checkOutFlow.cancelOrder<br>Parameters: Vamshi, Krishna, 500032</td>
 <td></td>
 <td>9</td>
-<td>com.newframework.saucelabs.inventoryTestcases.addMultipleProducts@13fd2ccd</td></tr>
-<tr>
-<td title='com.newframework.saucelabs.logintestcases.loginwithOnlyUsername.usernameOnly()'><b>usernameOnly</b><br>Test class: com.newframework.saucelabs.logintestcases.loginwithOnlyUsername<br>Parameters: standard_user, secret_sauce</td>
-<td></td>
-<td>1</td>
-<td>com.newframework.saucelabs.logintestcases.loginwithOnlyUsername@4c1909a3</td></tr>
-<tr>
-<td title='com.newframework.saucelabs.inventoryTestcases.sortAtoZ.sortingAtoZ()'><b>sortingAtoZ</b><br>Test class: com.newframework.saucelabs.inventoryTestcases.sortAtoZ</td>
-<td></td>
-<td>0</td>
-<td>com.newframework.saucelabs.inventoryTestcases.sortAtoZ@4efac082</td></tr>
-<tr>
-<td title='com.newframework.saucelabs.inventoryTestcases.productDetails.verifyProductDetails()'><b>verifyProductDetails</b><br>Test class: com.newframework.saucelabs.inventoryTestcases.productDetails</td>
-<td></td>
-<td>0</td>
-<td>com.newframework.saucelabs.inventoryTestcases.productDetails@2d710f1a</td></tr>
+<td>com.newframework.saucelabs.checkOutFlow.cancelOrder@4b45a2f5</td></tr>
 <tr>
 <td title='com.newframework.saucelabs.inventoryTestcases.sortLowToHigh.sortLowtoHigh()'><b>sortLowtoHigh</b><br>Test class: com.newframework.saucelabs.inventoryTestcases.sortLowToHigh</td>
 <td></td>
 <td>0</td>
-<td>com.newframework.saucelabs.inventoryTestcases.sortLowToHigh@29215f06</td></tr>
+<td>com.newframework.saucelabs.inventoryTestcases.sortLowToHigh@52719fb6</td></tr>
 <tr>
-<td title='com.newframework.saucelabs.logintestcases.loginwithValidCredentials.login()'><b>login</b><br>Test class: com.newframework.saucelabs.logintestcases.loginwithValidCredentials<br>Parameters: standard_user, secret_sauce</td>
+<td title='com.newframework.saucelabs.logintestcases.loginwithOnlyPwd.pwdOnly()'><b>pwdOnly</b><br>Test class: com.newframework.saucelabs.logintestcases.loginwithOnlyPwd<br>Parameters: standard_user, secret_sauce</td>
 <td></td>
-<td>1</td>
-<td>com.newframework.saucelabs.logintestcases.loginwithValidCredentials@54a7079e</td></tr>
+<td>0</td>
+<td>com.newframework.saucelabs.logintestcases.loginwithOnlyPwd@51c668e3</td></tr>
 <tr>
-<td title='com.newframework.saucelabs.logintestcases.loginwithEmptyFields.loginwithoutCredentials()'><b>loginwithoutCredentials</b><br>Test class: com.newframework.saucelabs.logintestcases.loginwithEmptyFields</td>
+<td title='com.newframework.saucelabs.inventoryTestcases.productDetails.verifyProductDetails()'><b>verifyProductDetails</b><br>Test class: com.newframework.saucelabs.inventoryTestcases.productDetails</td>
 <td></td>
-<td>1</td>
-<td>com.newframework.saucelabs.logintestcases.loginwithEmptyFields@4b0d79fc</td></tr>
+<td>0</td>
+<td>com.newframework.saucelabs.inventoryTestcases.productDetails@6221a451</td></tr>
+<tr>
+<td title='com.newframework.saucelabs.inventoryTestcases.addMultipleProducts.addMultipleProductsToCart()'><b>addMultipleProductsToCart</b><br>Test class: com.newframework.saucelabs.inventoryTestcases.addMultipleProducts</td>
+<td></td>
+<td>9</td>
+<td>com.newframework.saucelabs.inventoryTestcases.addMultipleProducts@5824a83d</td></tr>
+<tr>
+<td title='com.newframework.saucelabs.cartTestcases.backToInventory.toContinueShopping()'><b>toContinueShopping</b><br>Test class: com.newframework.saucelabs.cartTestcases.backToInventory</td>
+<td></td>
+<td>3</td>
+<td>com.newframework.saucelabs.cartTestcases.backToInventory@18df8434</td></tr>
+<tr>
+<td title='com.newframework.saucelabs.checkOutFlow.firstNameErrorMssg.verifyFirstNameErrorMssg()'><b>verifyFirstNameErrorMssg</b><br>Test class: com.newframework.saucelabs.checkOutFlow.firstNameErrorMssg<br>Parameters: Vamshi, Krishna, 500032</td>
+<td></td>
+<td>0</td>
+<td>com.newframework.saucelabs.checkOutFlow.firstNameErrorMssg@4686afc2</td></tr>
 <tr>
 <td title='com.newframework.saucelabs.inventoryTestcases.addtoCart.addToCart()'><b>addToCart</b><br>Test class: com.newframework.saucelabs.inventoryTestcases.addtoCart</td>
 <td></td>
 <td>0</td>
-<td>com.newframework.saucelabs.inventoryTestcases.addtoCart@48aca48b</td></tr>
+<td>com.newframework.saucelabs.inventoryTestcases.addtoCart@7b36aa0c</td></tr>
+<tr>
+<td title='com.newframework.saucelabs.checkOutFlow.zipCodeErrorMssg.verifyCheckOutwitValidData()'><b>verifyCheckOutwitValidData</b><br>Test class: com.newframework.saucelabs.checkOutFlow.zipCodeErrorMssg<br>Parameters: Vamshi, Krishna, 500032</td>
+<td></td>
+<td>10</td>
+<td>com.newframework.saucelabs.checkOutFlow.zipCodeErrorMssg@791f145a</td></tr>
+<tr>
+<td title='com.newframework.saucelabs.cartTestcases.checkOut.verifyCheckOut()'><b>verifyCheckOut</b><br>Test class: com.newframework.saucelabs.cartTestcases.checkOut</td>
+<td></td>
+<td>6</td>
+<td>com.newframework.saucelabs.cartTestcases.checkOut@4d154ccd</td></tr>
+<tr>
+<td title='com.newframework.saucelabs.logintestcases.invalidLogin.invalidLogin()'><b>invalidLogin</b><br>Test class: com.newframework.saucelabs.logintestcases.invalidLogin<br>Parameters: locked_out_user, secret_sauce</td>
+<td></td>
+<td>10</td>
+<td>com.newframework.saucelabs.logintestcases.invalidLogin@4d5650ae</td></tr>
+<tr>
+<td title='com.newframework.saucelabs.logintestcases.loginwithValidCredentials.login()'><b>login</b><br>Test class: com.newframework.saucelabs.logintestcases.loginwithValidCredentials<br>Parameters: standard_user, secret_sauce</td>
+<td></td>
+<td>1</td>
+<td>com.newframework.saucelabs.logintestcases.loginwithValidCredentials@4f80542f</td></tr>
+<tr>
+<td title='com.newframework.saucelabs.checkOutFlow.finalCheckOut.verifyCheckOutwitValidData()'><b>verifyCheckOutwitValidData</b><br>Test class: com.newframework.saucelabs.checkOutFlow.finalCheckOut<br>Parameters: Vamshi, Krishna, 500032</td>
+<td></td>
+<td>10</td>
+<td>com.newframework.saucelabs.checkOutFlow.finalCheckOut@38cee291</td></tr>
+<tr>
+<td title='com.newframework.saucelabs.checkOutFlow.checkOutWithValidData.verifyCheckOutwitValidData()'><b>verifyCheckOutwitValidData</b><br>Test class: com.newframework.saucelabs.checkOutFlow.checkOutWithValidData<br>Parameters: Vamshi, Krishna, 500032</td>
+<td></td>
+<td>10</td>
+<td>com.newframework.saucelabs.checkOutFlow.checkOutWithValidData@229c6181</td></tr>
+<tr>
+<td title='com.newframework.saucelabs.inventoryTestcases.removeProductFromCart.removeProduct()'><b>removeProduct</b><br>Test class: com.newframework.saucelabs.inventoryTestcases.removeProductFromCart</td>
+<td></td>
+<td>3</td>
+<td>com.newframework.saucelabs.inventoryTestcases.removeProductFromCart@537f60bf</td></tr>
+<tr>
+<td title='com.newframework.saucelabs.inventoryTestcases.sortAtoZ.sortingAtoZ()'><b>sortingAtoZ</b><br>Test class: com.newframework.saucelabs.inventoryTestcases.sortAtoZ</td>
+<td></td>
+<td>0</td>
+<td>com.newframework.saucelabs.inventoryTestcases.sortAtoZ@4a883b15</td></tr>
+<tr>
+<td title='com.newframework.saucelabs.inventoryTestcases.sortZtoA.sortZToA()'><b>sortZToA</b><br>Test class: com.newframework.saucelabs.inventoryTestcases.sortZtoA</td>
+<td></td>
+<td>0</td>
+<td>com.newframework.saucelabs.inventoryTestcases.sortZtoA@25641d39</td></tr>
+<tr>
+<td title='com.newframework.saucelabs.logintestcases.loginwithEmptyFields.loginwithoutCredentials()'><b>loginwithoutCredentials</b><br>Test class: com.newframework.saucelabs.logintestcases.loginwithEmptyFields</td>
+<td></td>
+<td>0</td>
+<td>com.newframework.saucelabs.logintestcases.loginwithEmptyFields@a38c7fe</td></tr>
+<tr>
+<td title='com.newframework.saucelabs.checkOutFlow.lastNameErrorMssg.verifyLastNameErrorMssg()'><b>verifyLastNameErrorMssg</b><br>Test class: com.newframework.saucelabs.checkOutFlow.lastNameErrorMssg<br>Parameters: Vamshi, Krishna, 500032</td>
+<td></td>
+<td>0</td>
+<td>com.newframework.saucelabs.checkOutFlow.lastNameErrorMssg@1e0b4072</td></tr>
+<tr>
+<td title='com.newframework.saucelabs.inventoryTestcases.productListCount.validateProductListCount()'><b>validateProductListCount</b><br>Test class: com.newframework.saucelabs.inventoryTestcases.productListCount</td>
+<td></td>
+<td>0</td>
+<td>com.newframework.saucelabs.inventoryTestcases.productListCount@2e6a8155</td></tr>
+<tr>
+<td title='com.newframework.saucelabs.cartTestcases.navigateToCart.navToCart()'><b>navToCart</b><br>Test class: com.newframework.saucelabs.cartTestcases.navigateToCart</td>
+<td></td>
+<td>0</td>
+<td>com.newframework.saucelabs.cartTestcases.navigateToCart@5677323c</td></tr>
+<tr>
+<td title='com.newframework.saucelabs.cartTestcases.removeItemsInCart.removeItemsInCart()'><b>removeItemsInCart</b><br>Test class: com.newframework.saucelabs.cartTestcases.removeItemsInCart</td>
+<td></td>
+<td>6</td>
+<td>com.newframework.saucelabs.cartTestcases.removeItemsInCart@65c7a252</td></tr>
+<tr>
+<td title='com.newframework.saucelabs.logintestcases.loginwithOnlyUsername.usernameOnly()'><b>usernameOnly</b><br>Test class: com.newframework.saucelabs.logintestcases.loginwithOnlyUsername<br>Parameters: standard_user, secret_sauce</td>
+<td></td>
+<td>1</td>
+<td>com.newframework.saucelabs.logintestcases.loginwithOnlyUsername@6fdbe764</td></tr>
 </table><p>
 </body>
 </html>

@@ -49,6 +49,29 @@
 				name="com.newframework.saucelabs.inventoryTestcases.addMultipleProducts" />
 			<class
 				name="com.newframework.saucelabs.inventoryTestcases.removeProductFromCart" />
+
+			<!-- Cart Test Cases -->
+			<class
+				name="com.newframework.saucelabs.cartTestcases.navigateToCart" />
+			<class
+				name="com.newframework.saucelabs.cartTestcases.backToInventory" />
+			<class
+				name="com.newframework.saucelabs.cartTestcases.removeItemsInCart" />
+			<class 
+				name="com.newframework.saucelabs.cartTestcases.checkOut" />
+			<!-- Check out Test Cases -->
+			<class
+				name="com.newframework.saucelabs.checkOutFlow.checkOutWithValidData" />
+			<class
+				name="com.newframework.saucelabs.checkOutFlow.firstNameErrorMssg" />
+			<class
+				name="com.newframework.saucelabs.checkOutFlow.lastNameErrorMssg" />
+			<class
+				name="com.newframework.saucelabs.checkOutFlow.zipCodeErrorMssg" />
+			<class
+				name="com.newframework.saucelabs.checkOutFlow.finalCheckOut" />
+			<class
+				name="com.newframework.saucelabs.checkOutFlow.cancelOrder" />
 		</classes>
 	</test>
 </suite>
